@@ -9,10 +9,11 @@ body {
 
 
 @media screen and (max-width: 768px) {
-  #important-dates {
-    font-size: 0.8em;
-  }
   .jumbotron p {
     font-size: 1.2em;
+  }
+  .mobile-hidden {
+    display: none !important;
+    visibility: hidden !important;
   }
 }
