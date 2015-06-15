@@ -7,13 +7,24 @@ body {
   background-color: #2b3e50;
 }
 
-
+/* Most Android phones and iPhone6 */
 @media screen and (max-width: 768px) {
+  .jumbotron {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
   .jumbotron p {
     font-size: 1.2em;
   }
   .mobile-hidden {
     display: none !important;
     visibility: hidden !important;
+  }
+}
+
+/* Optimizaitons For older iPhones */
+@media screen and (max-width: 350px) {
+  #important-dates {
+    font-size: 0.8em;
   }
 }
