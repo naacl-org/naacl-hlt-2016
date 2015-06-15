@@ -6,3 +6,13 @@ body {
   color: #ebebeb;
   background-color: #2b3e50;
 }
+
+
+@media screen and (max-width: 768px) {
+  #important-dates {
+    font-size: 0.9em;
+  }
+  .jumbotron p {
+    font-size: 1.3em;
+  }
+}
