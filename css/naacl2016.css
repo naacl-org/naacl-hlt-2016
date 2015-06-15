@@ -10,9 +10,9 @@ body {
 
 @media screen and (max-width: 768px) {
   #important-dates {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .jumbotron p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
