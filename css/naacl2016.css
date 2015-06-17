@@ -1,24 +1,43 @@
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.jumbotron {
+#header {
   color: #ebebeb;
   background-color: #2b3e50;
+  padding: 20px;
+}
+
+#header a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+#title {
+  margin-top: 0px;
+  padding-top: 0px;
+  line-height: 1em;
 }
 
 /* Optimizations for mobile */
 @media screen and (max-width: 768px) {
-  .jumbotron {
+  #header {
     margin-right: 0px;
+    margin-left: 0px;
     padding-right: 0px;
+    padding-left: 0px;
+
   }
-  .jumbotron p {
-    font-size: 1.2em;
+  #header p {
+    font-size: 1.1em;
   }
   .mobile-hidden {
     display: none !important;
     visibility: hidden !important;
+  }
+  h2 {
+    font-size: 1.6em;
   }
 }
 
@@ -33,8 +52,5 @@ body {
   }
   .jumbotron h1 {
     font-size: 2.2em;
-  }
-  h2 {
-    font-size: 1.6em;
   }
 }

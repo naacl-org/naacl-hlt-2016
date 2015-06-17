@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+}
+
+.navbar-toggle {
+  float: left;
+  margin: 0px;
+  padding: 3px 8px;
+  background-color: #2b3e50;
+}
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: inline; /* force showing the toggle */
+  }
+}
+
+.navbar {
+  float: left;
+  background: inherit;
+  border: none;
+  margin: 10px 0px 0px -50px;
+  min-height: 0px;
+}
+
+.navmenu {
+  background-color: #4e5d6c;
+  font-size: 1.2em;
+  width: 200px;
+}
+
+.brand {
+  background-color: #2d2d2d;
+  font-size: 1.2em;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.brand a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img#brand {
+  width: 100px;
+  margin-bottom: 5px;
+}
+.navmenu-brand {
+  background-color: #303030;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.navmenu-inverse {
+  border: #fff;
+}
+
+.navmenu-inverse .navmenu-nav>li>a, .navbar-inverse .navbar-offcanvas .navmenu-nav>li>a {
+  color: #fff;
+}
+.navmenu-inverse .navmenu-brand, .navbar-inverse .navbar-offcanvas .navmenu-brand {
+  color: #fff;
+}
+
+/* Optimizations for mobile */
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin: 20px 0;
+    float: inherit;
+    right: auto;
+  }
+}
