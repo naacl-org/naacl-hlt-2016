@@ -5,8 +5,9 @@ html, body {
 .navbar-toggle {
   float: left;
   margin: 0px;
-  padding: 3px 8px;
+  padding: 5px 9px 3px 9px;
   background-color: #2b3e50;
+  border: 0px;
 }
 
 @media (min-width: 0) {
@@ -27,6 +28,10 @@ html, body {
   background-color: #4e5d6c;
   font-size: 1.2em;
   width: 200px;
+}
+
+.glyphicon.glyphicon-menu-hamburger {
+  font-size: 22px;
 }
 
 .brand {
@@ -63,8 +68,8 @@ img#brand {
   color: #fff;
 }
 
-/* Optimizations for mobile */
-@media screen and (max-width: 768px) {
+/* Optimizations for mobile & tablets */
+@media screen and (max-width: 1024px) {
   .navbar {
     margin: 20px 0;
     float: inherit;
