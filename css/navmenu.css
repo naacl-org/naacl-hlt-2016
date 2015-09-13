@@ -1,19 +1,19 @@
 html, body {
   height: 100%;
 }
-
-.navbar-toggle {
-  float: left;
-  margin: 0px;
-  padding: 5px 9px 3px 9px;
-  background-color: #2b3e50;
-  border: 0px;
+.navbutton {
+  display: none;
+  margin-bottom: 10px;
 }
 
-@media (min-width: 0) {
-  .navbar-toggle {
-    display: inline; /* force showing the toggle */
-  }
+.navbar-toggle {
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  float: left; 
+  display: block;
+  margin: 0px;
+  padding: 5px 9px 3px 9px;
+/*  background-color: #2b3e50; */
 }
 
 .navbar {
@@ -25,7 +25,7 @@ html, body {
 }
 
 .navmenu {
-  background-color: #4e5d6c;
+  /* background-color: #4e5d6c; */
   font-size: 1.2em;
   width: 200px;
 }
@@ -67,12 +67,26 @@ img#brand {
 .navmenu-inverse .navmenu-brand, .navbar-inverse .navbar-offcanvas .navmenu-brand {
   color: #fff;
 }
-
 /* Optimizations for mobile & tablets */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 760px) {
   .navbar {
+    display: inline;
+    background: inherit;
     margin: 20px 0;
     float: inherit;
     right: auto;
+  }
+  .navbutton {
+    display: inline;
+  /*
+    display: table;
+    content: " ";
+  */
+  }
+  #hmenu {
+    display: none;
+  }
+  .navbar-toggle {
+    display: inline;
   }
 }

@@ -4,13 +4,12 @@ body {
 }
 
 #header {
-  color: #ebebeb;
-  background-color: #2b3e50;
+  color: #333;
+  background-color: #fff;
   padding: 20px;
 }
 
 #header a {
-  color: #fff;
   text-decoration: none; 
 }
 
