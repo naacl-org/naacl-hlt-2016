@@ -6,6 +6,10 @@ html, body {
   margin-bottom: 10px;
 }
 
+#hmenu li {
+ font-size: 1.2em;
+}
+
 .navbar-toggle {
   border: 1px solid #c0c0c0;
   border-radius: 5px;

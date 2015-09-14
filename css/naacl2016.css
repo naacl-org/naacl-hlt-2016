@@ -40,6 +40,10 @@ body {
   }
 }
 
+.jumbotron {
+  margin-bottom: 0px;
+}
+
 /* Additional optimizations smaller viewport phones;
    e.g., older iPhones */
 @media screen and (max-width: 350px) {
