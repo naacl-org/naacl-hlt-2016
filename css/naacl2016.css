@@ -38,6 +38,9 @@ body {
   h2 {
     font-size: 1.6em;
   }
+  #footer {
+    font-size: 0.8em;
+  }
 }
 
 .jumbotron {
@@ -60,4 +63,16 @@ body {
 
 .panel-body {
   padding-bottom: 1px;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#footer-acl-logo {
+  width: 30px;
+  margin-right: 20px;
 }
