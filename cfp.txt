@@ -1,0 +1,134 @@
+NAACL HLT 2016 FIRST CALL FOR PAPERS
+The 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT 2016)
+
+June 12 to June 17, 2016
+
+San Diego, California, United States
+
+http://naacl.org/naacl-hlt-2016/
+
+NAACL HLT 2016 will feature long papers, short papers, demonstrations, and a student research workshop, as well as associated tutorials and workshops. In addition, some of the presentations at the conference will be of papers accepted for the new Transactions of the ACL journal (http://www.transacl.org/).
+
+The conference invites the submission of long and short papers on substantial, original, and unpublished research in all aspects of automated language processing and creation of  language resources. The short paper format may also be appropriate for a small, focused contribution, a work in progress, a negative result, an opinion piece or an interesting application nugget. 
+
+Topics of interest include, but are not limited to the study of the following language areas, tasks, genres and approaches to language analysis:
+
+Linguistic areas of study
+
+Discourse: anaphora resolution, discourse relation tagging, theories and systems for text organization evaluation, methods for analysis of dialog structure (spoken or written) and discourse semantics
+Morphology
+Phonology and phonetics 
+Pragmatics
+Prosody
+Semantics: event, lexical, distributional, formal, extra-propositional, grounding and ontologies
+Tagging, chunking, syntax and parsing
+
+Application tasks
+
+Dialogue and interactive systems, automatic speech recognition other spoken language processing
+Image/video description generation
+Language understanding, language generation, summarization, information extraction, question answering, information retrieval, machine translation, recognizing textual entailment and semantic equivalence, relation extraction, text simplification
+Mathematical models of language
+Predicting speaker/writer characteristics
+Sentiment analysis, text categorization (of words, sentences and longer texts), text quality prediction, style analysis and lexicon induction
+Spelling and grammar correction and computer-aided learning
+Tokenization/word segmentation for Chinese and similar languages and word segmentation in spoken utterances
+
+Research goals
+
+Cognitive modeling and psycholinguistic research
+Corpus creation and evaluation 
+End-user application building 
+Integrate language and other modalities
+Linguistic theories for NLP
+Machine learning for NLP
+Sociolinguistic research
+
+Approaches to language processing tasks
+
+Machine learning: topic modeling, structured prediction, deep learning, bayesian models, kernel methods, generative models, discriminative models, semi-supervised learning, representation learning
+Optimization
+Exploiting multilingual resources
+Modeling linguistic knowledge (e.g., grammars)
+Algorithm development for NLP
+Corpus/data analysis
+
+Genres
+
+Biological and medical text (BioNLP)
+Chat and Email (private unedited written dialog)
+Literature
+News
+Social media: twitter, blogs, discussion forums and other social media
+Spoken dialog and other spoken genres
+Search log analysis
+
+Languages
+
+Low-Resource Languages
+Morphologically rich languages
+Other specific living language(s)
+
+
+IMPORTANT DATES
+
+Deadline for BOTH Long and Short paper submission: Jan 6, 2016
+Author response period: Feb 10–15, 2016
+Notification to authors: Mar 2, 2016
+
+All deadlines are 11:59PM Pacific Time. Please DO NOT submit the same paper in long and short paper form. 
+
+
+SUBMISSIONS
+
+LONG PAPERS
+
+NAACL HLT 2016 long paper submissions must describe substantial, original, completed and previously unpublished work. The long paper deadline is January 6, 2016 by 11:59PM Pacific Standard Time (GMT-8). Each submission will be reviewed by at least three program committee members.
+
+Long papers may consist of up to eight (8) pages of content, plus unlimited pages for references. Upon acceptance, final versions of long papers will be given one additional page (up to 9 pages with unlimited pages for references) so that reviewers’ comments can be taken into account.
+
+Papers will be presented orally or as a poster presentation as determined by the program committee. There will be no distinction in the proceedings between long papers presented orally and those presented as poster presentations.
+
+SHORT PAPERS
+
+NAACL HLT 2016 also solicits short papers. Short paper submissions must describe original, completed and previously unpublished work. The short paper deadline this year is also January 6, 2016 by 11:59PM Pacific Standard Time (GMT-8). Types of short papers include:
+
+A small, focused contribution
+A negative result
+An opinion piece
+An interesting application nugget
+
+Short papers may consist of up to four (4) pages of content, plus unlimited pages for references. Upon acceptance, short papers will be given five (5) pages in the proceedings and unlimited pages for references. Authors are encouraged to use this additional page to address reviewers comments in their final versions.
+
+Short papers will be presented in one or more oral or poster sessions. While short papers will be distinguished from long papers in the proceedings, there will be no distinction in the proceedings between short papers presented orally and those presented as poster presentations. Each short paper submission will be reviewed by at least three program committee members.
+
+ELECTRONIC SUBMISSION
+
+Papers should be submitted electronically using the Softconf START conference management system at the following URL:
+
+ https://www.softconf.com/naacl2016/papers
+
+The site will be open for accepting submissions one month before the conference deadline.
+
+MULTIPLE SUBMISSION POLICY
+
+Papers that have been or will be submitted to other meetings or publications must indicate this at submission time. Authors of papers accepted for presentation at NAACL HLT 2016 must notify the program chairs by the camera-ready deadline as to whether the paper will be presented. All accepted papers must be presented at the conference to appear in the proceedings. We will not accept for publication or presentation papers that overlap significantly in content or results with papers that will be (or have been) published elsewhere.
+
+Authors submitting more than one paper to NAACL HLT must ensure that submissions do not overlap significantly (>25%) with each other in content or results. Authors should not submit short and long versions of papers with substantial overlap in their original contributions.
+
+WHAT IS CONSIDERED “UNPUBLISHED WORK”?
+
+All prior peer-reviewed publications, either at a conference or workshop, are considered published prior work. Preprints such as those on arXiv.org and technical reports that are not peer reviewed are not considered prior published work for purposes of submission. Authors must state in the online submission form the name of the workshop or preprint server and title of the non-archival version. The version submitted to NAACL HLT should be suitably anonymized and not contain references to the prior non-archival version. Reviewers will be told: “The author(s) have notified us that there exists a non-archival previous version of this paper with significantly overlapping text. We have approved submission under these circumstances, but to preserve the spirit of blind review, the current submission does not reference the non-archival version.” Reviewers are free to do what they like with this information.
+
+
+CONTACT
+Program Co-Chairs
+
+Ani Nenkova, University of Pennsylvania
+Owen Rambow, Columbia University
+
+Email: naacl2016-programchairs@googlegroups.com
+
+General Chair
+
+Kevin Knight, USC Information Science Institute
