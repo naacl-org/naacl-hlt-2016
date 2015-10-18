@@ -1,0 +1,32 @@
+#search {
+  width: 400px;
+}
+
+#search-bar {
+  padding-top: 5px;
+}
+
+input#gsc-i-id1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  height: 25px !important;
+  margin-top: 1px !important;
+  padding-top: 0px !important;
+}
+
+td#gs_tti50 {
+  display: inline;
+  padding-top: 0px;
+  height: 30px;
+}
+
+div#gsc-iw-id1 {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid rgb(188, 232, 241);
+}
+
+input.gsc-search-button {
+  display: none;
+}

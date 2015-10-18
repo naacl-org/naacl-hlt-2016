@@ -5,9 +5,12 @@
  {% include head.html %}
   <body>
     {% include nav.html %} 
+    <div class="container">
+    </div> <!-- container -->
+
     <div class="jumbotron" id="header">
       <div class="container">
-        <div class="navbutton">
+            <div class="navbutton">
         <!-- class="navbar navbar-default navbar-fixed-left">  -->
           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
             <span class="glyphicon glyphicon-menu-hamburger"></span>
@@ -27,6 +30,35 @@
           <a href="http://www.sheratonsandiegohotel.com/">Sheraton San Diego Hotel &amp; Marina</a>.</p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-2">
+          <h5><b>Search this site:</b></h5>
+        </div>
+        <div class="col-md-7">
+  <!-- NAACL HLT 2016 Site Search -->
+      <div id="search">
+          <div id="search-bar">
+            <script>
+              (function() {
+                var cx = '005320630427269056384:lwkjtv3_ryc';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:searchbox-only id="naacl-searchbox" enableAutoComplete="true"></gcse:searchbox-only>
+            <link rel="stylesheet" href="css/gcs.css">
+          </div>
+      </div>
+
+
+        </div>
+      </div>
+
       <br>
       <!-- Alerts -->
       <div class="row">
@@ -71,7 +103,11 @@
           </tr>
         </table>
         </div></div>
+
+
+
     </div>
+
     <!-- put new container content here -->
     {% include footer.html %}
     </div> <!-- wrapper -->
