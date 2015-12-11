@@ -84,3 +84,10 @@ body {
   font-size: 0.9em;
 }
 
+#twitter-stream {
+  margin: 10px 0px 10px 0px;
+}
+
+#policies {
+  margin-top: 15px;
+}
