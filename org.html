@@ -21,9 +21,15 @@
     </div> <!-- jumbotron -->
 
     <div class="container">
-      <p>The NAACL HLT 2016 conference is organized by the committees listed below.</p>
-      <h2><i class="fa fa-users"></i> Conference Organization</h2>
       <div class="row">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+      <div class="col-md-10">
+      <h2><i class="fa fa-users"></i> Conference Organization</h2>
+      <p>The NAACL HLT 2016 conference is organized by the committees listed below.</p>
+       <div class="row">
+
         <div class="col-md-6">
           <div class="panel panel-info">
             <div class="panel-heading">
@@ -274,7 +280,7 @@
         </div> <!-- end col -->
       </div> <!-- end row -->
       <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-8 col-md-offset-2">
           <div class="panel panel-info">
             <div class="panel-heading">
               <div class="panel-title"><strong>Area Chairs</strong></div>
@@ -329,7 +335,8 @@
           </div>
           </div>
         </div> <!-- end col -->
-
+       </div>  <!-- col-md-10 -->
+       </div> <!-- row -->
     </div> <!-- end conainer -->
     {% include footer.html %}
     </div> <!-- wrapper -->
