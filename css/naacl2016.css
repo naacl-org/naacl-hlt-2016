@@ -80,7 +80,7 @@ body {
   margin-right: 20px;
 }
 
-#cfp-dates {
+#cfp-dates, #sponsorship-booklet {
   font-size: 0.9em;
 }
 
@@ -90,4 +90,11 @@ body {
 
 #policies {
   margin-top: 15px;
+}
+
+#gold-sponsors {
+  margin-top: 20px;
+}
+#gold-sponsors .panel-body {
+  padding: 20px;
 }
