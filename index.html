@@ -17,24 +17,21 @@
             <span class="glyphicon glyphicon-menu-hamburger"></span>
           </button> 
         </div>
-       {% include top_banner.html %}
+        {% include top_banner.html %}
       </div> <!-- container -->
     </div> <!-- jumbotron -->
 
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+        <div class="col-md-6">
           <a name="dates"></a>
           <p>The 15th Annual Conference of the <a href="http://www.naacl.org">North American Chapter</a> of the
           <a href="http://www.aclweb.org">Association for Computational Linguistics</a>:
           Human Language Technologies will be held in San Diego, California, June 12 to June 17, 2016 at the
           <a href="http://www.sheratonsandiegohotel.com/">Sheraton San Diego Hotel &amp; Marina</a>.</p>
-        </div> <!-- col-md-8 -->
-      </div>  <!-- row -->
-
-      <br>
-      <div class="row">
-      <div class="col-md-8">
 
       <!-- Alerts -->
       <div class="row">
@@ -47,7 +44,7 @@
               <a href="workshops.html" class="alert-link">Accepted Workshops</a> for NAACL HLT 2016 have been posted. 
           </div>
           -->
-        </div>
+        </div> <!-- col-sm-12 -->
       </div> <!-- row -->
       
       <!-- Calendar -->
@@ -83,8 +80,8 @@
         </div> <!-- col -->
       </div> <!-- row -->
 
-      </div> <!-- col-md-8 -->
 
+        </div>  <!-- col-md-6 -->
         <!-- Sidebar -->
         <div class="col-md-4" id="sidebar">
           <div id="twitter-stream">
@@ -125,8 +122,7 @@
             </a></p>
           </div>
         </div> <!-- col-md-4 -->
-
-      </div> <!-- row -->
+    </div> <!-- row -->
     </div> <!-- container -->
 
 

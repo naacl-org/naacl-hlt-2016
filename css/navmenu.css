@@ -72,7 +72,7 @@ img#brand {
   color: #fff;
 }
 /* Optimizations for mobile & tablets */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1024px) {
   .navbar {
     display: inline;
     background: inherit;
@@ -90,7 +90,18 @@ img#brand {
   #hmenu {
     display: none;
   }
+  #sidebar-nav li {
+    display: none;
+  }
   .navbar-toggle {
     display: inline;
   }
+}
+
+#sidebar-nav {
+  font-size: 1.1em;
+}
+#sidebar-nav li {
+  margin: 10px;
+  white-space: nowrap;
 }
