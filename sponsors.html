@@ -24,39 +24,43 @@
        {% include top_banner.html %}
       </div> <!-- container -->
     </div> <!-- jumbotron -->
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="row">
         <div class="col-md-2" id="sidebar-nav">
           {% include sidebar_nav.html %}
         </div>
-        <div class="col-md-8">
+        <div class="col-md-10">
           <h2><i class="fa fa-star"></i> <b>Sponsors</b></h2>
           <p>NAACL HLT 2016 very gratefully recognizes the following commitments in sponsorship:</p>
-          <div class="panel panel-warning" id="gold-sponsors">
-            <div class="panel-heading">
-              <h3 class="panel-title"><b>Gold Sponsor</b></h3>
-            </div>
-            <div class="panel-body">
-              <img src="images/bloomberg-logo-may-2014.jpg" alt="Bloomberg" height="50">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4" id="sidebar">
-          <blockquote id="sponsorship-booklet">
-            <p>For sponsorship details, please download the 2016 Sponsorship Booklet or send email to:
-            <a href="mailto:sponsoring@aclweb.org">sponsoring@aclweb.org</a></p>
-            <p>
-              <a href="http://naacl.org/naacl-hlt-2016/sponsorship-january-2016.doc">
-                <button type="button" class="btn btn-primary">
-                  2016 Sponsorship Booklet
-                </button>
-              </a>
-            </p>
-          </blockquote>
-        </div> <!-- col-md-4 #sidebar -->
+          <div class="row">
+            <div class="col-md-8">
+              <div class="panel panel-warning" id="gold-sponsors">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><b>Gold Sponsor</b></h3>
+                </div>
+                <div class="panel-body">
+                  <img src="images/bloomberg-logo-may-2014.jpg" alt="Bloomberg" height="50">
+                </div>
+              </div>
+            </div> <!-- col-md-8 -->
+            <div class="col-md-4" id="sidebar">
+              <blockquote id="sponsorship-booklet">
+                <p>For sponsorship details, please download the 2016 Sponsorship Booklet or send email to:
+                <a href="mailto:sponsoring@aclweb.org">sponsoring@aclweb.org</a></p>
+                <p>
+                  <a href="http://naacl.org/naacl-hlt-2016/sponsorship-january-2016.doc">
+                    <button type="button" class="btn btn-primary">
+                      2016 Sponsorship Booklet
+                    </button>
+                  </a>
+                </p>
+              </blockquote>
+            </div> <!-- col-md-4 #sidebar -->
+          </div> <!-- row -->
+        </div> <!-- col-md-10 -->
       </div> <!-- row -->
-    </div>
+    </div> <!-- container -->
 
     <!-- put new container content here -->
     {% include footer.html %}
