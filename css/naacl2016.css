@@ -95,6 +95,15 @@ body {
 #gold-sponsors {
   margin-top: 20px;
 }
+
 #gold-sponsors .panel-body {
   padding: 20px;
+}
+
+.invited-speaker-content {
+  padding-bottom: 10px;
+}
+
+a#srw {
+ text-decoration: underline;
 }
