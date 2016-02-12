@@ -92,12 +92,27 @@ body {
   margin-top: 15px;
 }
 
-#gold-sponsors {
+.sponsor {
   margin-top: 20px;
 }
 
-#gold-sponsors .panel-body {
+.sponsor .panel-body {
   padding: 20px;
+}
+
+#platinum-sponsors.panel-default > .panel-heading {
+  background-color: #e5e4e2;
+  color: #444443;
+}
+
+#gold-sponsors.panel-default > .panel-heading {
+  background-color: #fff7bc;
+  color: #665600;
+}
+
+#bronze-sponsors.panel-default > .panel-heading {
+  background-color: #ebcbad;
+  color: #523214;
 }
 
 .invited-speaker-content {
