@@ -1,0 +1,88 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Conference Venue and Hotel - NAACL HLT 2016 | San Diego, CA</title>
+    <meta name="description"
+          content="Conference venue and hotel and acommodation information including student housing options." />
+   {% include head.html %}
+ </head>
+
+  <body>
+    {% include nav.html %} 
+    <div class="container">
+    </div> <!-- container -->
+
+    <div class="jumbotron" id="header">
+      <div class="container">
+            <div class="navbutton">
+        <!-- class="navbar navbar-default navbar-fixed-left">  -->
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button> 
+        </div>
+       {% include top_banner.html %}
+      </div> <!-- container -->
+    </div> <!-- jumbotron -->
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+        <div class="col-md-10">
+          <h2><i class="fa fa-building"></i> <b>Conference Venue and Hotel</b></h2>
+          <div class="row">
+            <div class="col-md-8">
+              <p>The NAACL HLT 2016 conference hotel is the same as the conference venue, the
+              <a href="http://www.sheratonsandiegohotel.com/">Sheraton San Diego Resort and
+              Marina</a>. Conference participants receive the following discounted rates:</p>
+              <ul>
+                <li>$189/night: single/double room</li>
+                <li>$209/night: triple room</li>
+                <li>$228/night: quad room</li>
+              </ul>
+             <p>All rooms include complimentary internet. Regular attendees can access the site
+             to learn more about the event and to book, modify, or cancel a reservation until
+             <b>Friday, May 20, 2016 (6pm PDT)</b>. To make your hotel reservations and take
+             advantage of the Conference Group Rate, please use the following URL:</p>
+             <p>
+               <a href="https://www.starwoodmeeting.com/Book/NAACLHLT2016">
+                 https://www.starwoodmeeting.com/Book/NAACLHLT2016
+               </a>
+             </p>
+            </div> <!-- col-md-8 -->
+            <div class="col-md-4" id="sidebar">
+              <blockquote id="sponsorship-booklet">
+                <p>
+                 Make your booking at the conference hotel through the link below
+                 before <b>May 20th, 6pm PDT</b> to receive the discounted conference
+                 rate.
+                <p>
+                  <a href="https://www.starwoodmeeting.com/Book/NAACLHLT2016">
+                    <button type="button" class="btn btn-primary">
+                      Make Reservation
+                    </button>
+                  </a>
+                </p>
+              </blockquote>
+            </div> <!-- col-md-4 #sidebar -->
+          </div> <!-- row -->
+        </div> <!-- col-md-10 -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+
+    <!-- put new container content here -->
+    {% include footer.html %}
+    </div> <!-- wrapper -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>
