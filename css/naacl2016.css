@@ -122,3 +122,11 @@ body {
 a#srw {
  text-decoration: underline;
 }
+
+div#tutorials-list {
+  margin: 30px 0px 30px 0px;
+}
+
+#tutorials-list .list-group-item-heading {
+  font-weight: bold;
+}
