@@ -127,6 +127,6 @@ div#tutorials-list {
   margin: 30px 0px 30px 0px;
 }
 
-#tutorials-list .list-group-item-heading {
+#tutorials-list .panel-title {
   font-weight: bold;
 }
