@@ -92,6 +92,10 @@ body {
   margin-top: 15px;
 }
 
+div.sponsor-item {
+  padding: 10px 0px 10px 0px;
+}
+
 .sponsor {
   margin-top: 20px;
 }
@@ -129,4 +133,20 @@ div#tutorials-list {
 
 #tutorials-list .panel-title {
   font-weight: bold;
+}
+
+span.tutorial-title {
+  vertical-align: middle;
+}
+.ws-label {
+  font-family: monospace;
+  font-size: 0.9em;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+
+.tutorial-label {
+  font-family: monospace;
+  vertical-align: middle;
 }
