@@ -175,3 +175,29 @@ img.sponsor-logo {
 #tutorials-list .panel-heading {
   padding: 5px 15px 5px 15px;
 }
+
+span.paper-title {
+  display: block;
+}
+
+span.paper-authors {
+  display: block;
+  font-style: italic;
+}
+
+li.accepted-paper-item {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#accepted-papers-tabs .tab-pane {
+  margin-top: 20px;
+}
+
+#accepted-papers-nav {
+  margin-top: 20px;
+}
+
+#accepted-papers-nav li {
+  font-weight: bold;
+}
