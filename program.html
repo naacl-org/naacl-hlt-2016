@@ -35,108 +35,60 @@
           <div id="accepted-papers-nav">
             <ul class="nav nav-pills" role="tablist">
               <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
-              <li role="presentation"><a href="#long-talks" aria-controls="long-talks" role="tab" data-toggle="tab">Long Papers, Talks</a></li>
-              <li role="presentation"><a href="#long-posters" aria-controls="long-posters" role="tab" data-toggle="tab">Long Papers, Posters</a></li>
-              <li role="presentation"><a href="#short-talks" aria-controls="short-talks" role="tab" data-toggle="tab">Short Papers, Talks</a></li>
-              <li role="presentation"><a href="#short-posters" aria-controls="short-posters" role="tab" data-toggle="tab">Short Papers, Posters</a></li>
+              <li role="presentation"><a href="#long-papers" aria-controls="long-papers" role="tab" data-toggle="tab">Long Papers</a></li>
+              <li role="presentation"><a href="#short-papers" aria-controls="short-papers" role="tab" data-toggle="tab">Short Papers</a></li>
             </ul>
           </div>
       <div class="tab-content" id="accepted-papers-tabs">
         <div role="tabpanel" class="tab-pane active" id="all">
           <div class="panel panel-info">
             <div class="panel-heading">
-              <div class="panel-title"><strong>Long Papers, Talks</strong></div>
+              <div class="panel-title"><strong>Long Papers</strong></div>
             </div>
             <div class="panel-body">
               <ul class="list-unstyled">
-                {% include long-talk.html %}
+                {% include long-papers.html %}
               </ul>
             </div> <!-- panel-body -->
           </div> <!-- panel -->
           <div class="panel panel-info">
             <div class="panel-heading">
-              <div class="panel-title"><strong>Long Papers, Posters</strong></div>
+              <div class="panel-title"><strong>Short Papers</strong></div>
             </div>
             <div class="panel-body">
               <ul class="list-unstyled">
-                {% include long-poster.html %}
+                {% include short-papers.html %}
               </ul>
             </div> <!-- panel-body -->
-          </div> <!-- panel long-posters -->
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <div class="panel-title"><strong>Short Papers, Talks</strong></div>
-            </div>
-            <div class="panel-body">
-              <ul class="list-unstyled">
-                {% include short-talk.html %}
-              </ul>
-            </div> <!-- panel-body -->
-          </div> <!-- panel short-talks -->
-
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <div class="panel-title"><strong>Short Papers, Posters</strong></div>
-            </div>
-            <div class="panel-body">
-              <ul class="list-unstyled">
-                {% include short-poster.html %}
-              </ul>
-            </div> <!-- panel-body -->
-          </div> <!-- panel short-posters -->
+          </div> <!-- panel short-papers -->
         </div> <!-- tab all -->
 
-        <div role="tabpanel" class="tab-pane" id="long-talks">
+        <div role="tabpanel" class="tab-pane" id="long-papers">
            <div class="panel panel-info">
             <div class="panel-heading">
-              <div class="panel-title"><strong>Long Papers, Talks</strong></div>
+              <div class="panel-title"><strong>Long Papers</strong></div>
             </div>
             <div class="panel-body">
               <ul class="list-unstyled">
-                {% include long-talk.html %}
+                {% include long-papers.html %}
               </ul>
             </div> <!-- panel-body -->
           </div> <!-- panel -->
-        </div> <!-- tab long-talks -->
+        </div> <!-- tab long-papers -->
 
-        <div role="tabpanel" class="tab-pane" id="long-posters">
+        <div role="tabpanel" class="tab-pane" id="short-papers">
           <div class="panel panel-info">
             <div class="panel-heading">
-              <div class="panel-title"><strong>Long Papers, Posters</strong></div>
+              <div class="panel-title"><strong>Short Papers</strong></div>
             </div>
             <div class="panel-body">
               <ul class="list-unstyled">
-                {% include long-poster.html %}
+                {% include short-papers.html %}
               </ul>
             </div> <!-- panel-body -->
           </div> <!-- panel -->
-        </div> <!-- tab long-posters --> 
+        </div> <!-- tab short-papers -->
 
-        <div role="tabpanel" class="tab-pane" id="short-talks">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <div class="panel-title"><strong>Short Papers, Talks</strong></div>
-            </div>
-            <div class="panel-body">
-              <ul class="list-unstyled">
-                {% include short-talk.html %}
-              </ul>
-            </div> <!-- panel-body -->
-          </div> <!-- panel -->
-        </div> <!-- tab short-talks -->
- 
-        <div role="tabpanel" class="tab-pane" id="short-posters">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <div class="panel-title"><strong>Short Papers, Posters</strong></div>
-            </div>
-            <div class="panel-body">
-              <ul class="list-unstyled">
-                {% include short-poster.html %}
-              </ul>
-            </div> <!-- panel-body -->
-          </div> <!-- panel -->
-        </div> <!-- tab short-posters -->
        </div> <!-- tab content --> 
         </div> <!-- col-md-10 -->
       </div> <!-- row -->
