@@ -104,6 +104,10 @@ div.sponsor-item {
   padding: 20px 10px 0px 20px;
 }
 
+.sponsor .panel-title {
+  font-size: 1.5em;
+}
+
 #platinum-sponsors.panel-default  {
   border: 0px;
   margin-top: 30px;
@@ -117,22 +121,16 @@ div.sponsor-item {
   margin-top: 30px;
 }
 
-#platinum-sponsors.panel-default > .panel-heading {
-  background-color: #e5e4e2;
-  color: #444443;
-  border: 1px solid #ddd;
+#label-platinum {
+  background-color: #5b5b5a;
 }
 
-#gold-sponsors.panel-default > .panel-heading {
-  background-color: #fff7bc;
-  color: #665600;
-  border: 1px solid #ddd;
+#label-gold {
+  background-color: #ccac00;
 }
 
-#bronze-sponsors.panel-default > .panel-heading {
-  background-color: #ebcbad;
-  color: #523214;
-  border: 1px solid #ddd;
+#label-bronze {
+  background-color: #b8722d;
 }
 
 .invited-speaker-content {
