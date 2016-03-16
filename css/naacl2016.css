@@ -199,3 +199,7 @@ li.accepted-paper-item {
 #accepted-papers-nav li {
   font-weight: bold;
 }
+
+.indent {
+  text-indent: 20px;
+}
