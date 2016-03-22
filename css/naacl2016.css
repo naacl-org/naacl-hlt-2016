@@ -122,7 +122,7 @@ div.sponsor-item {
 }
 
 #label-platinum {
-  background-color: #5b5b5a;
+  background-color: #3f3f3e;
 }
 
 #label-gold {
@@ -131,6 +131,10 @@ div.sponsor-item {
 
 #label-bronze {
   background-color: #b8722d;
+}
+
+#label-supporter {
+  background-color: #8c8c8b;
 }
 
 .invited-speaker-content {
