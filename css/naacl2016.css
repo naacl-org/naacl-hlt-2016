@@ -173,6 +173,10 @@ img.sponsor-logo {
   height: 60px;
   margin: 0px 100px 20px 0px;
 }
+img.sponsor-logo-2col {
+  width: 100%;
+  margin: 0px 100px 20px 0px;
+}
 
 #tutorials-list .panel-heading {
   padding: 5px 15px 5px 15px;
