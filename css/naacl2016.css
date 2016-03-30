@@ -212,6 +212,16 @@ li.accepted-paper-item {
   text-indent: 20px;
 }
 
-.sponsor-col-2 {
-  padding-left: 20px;
+.sponsor-col-1 {
+/*  padding-right: 100px; */
+}
+
+.wide-gutter > [class*='col-'] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.speaker-photo {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
 }

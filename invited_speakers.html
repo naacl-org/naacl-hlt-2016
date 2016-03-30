@@ -1,0 +1,125 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Invited Speakers - NAACL HLT 2016 | San Diego, CA</title>
+    <meta name="description" content="Invited speakers giving keynote presentations at the main conference plenary sessions" />
+   {% include head.html %}
+ </head>
+
+  <body>
+    {% include nav.html %} 
+    <div class="container">
+    </div> <!-- container -->
+
+    <div class="jumbotron" id="header">
+      <div class="container">
+            <div class="navbutton">
+        <!-- class="navbar navbar-default navbar-fixed-left">  -->
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button> 
+        </div>
+       {% include top_banner.html %}
+      </div> <!-- container -->
+    </div> <!-- jumbotron -->
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-9">
+              <h2><i class="fa fa-star"></i> <b>Invited Speakers</b></h2>
+              <p>NAACL HLT 2016 welcomes this year's invited speakers, who will be giving keynote 
+              talks at plenary sessions during the main conference.</p>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><b>Ehud Reiter, Arria NLG</b></h3>
+                </div>
+                <div class="panel-body invited-speaker-content">
+                  <div class="row">
+                    <div class="col-xs-offset-3 col-xs-9">
+                      <p><b>About the speaker:</b></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-3">
+                      <img class="img-responsive img-thumbnail speaker-photo" src="images/ehud-hs.jpg">
+                    </div> <!-- col-xs-3 -->
+                    <div class="col-xs-9">
+                      <p>
+                        Ehud Reiter is a Professor of Computing Science at the University
+                        of Aberdeen and also Chief Scientist of Arria NLG.  He has worked on
+                        natural language generation for the past 30 years, on methodology
+                        (including evaluation) and resources as well as algorithms, and is
+                        one of the most cited authors in NLG.  His 2000 book Building Natural
+                        Language Generation Systems is widely used as an NLG textbook.  Dr Reiter
+                        currently spends most of his time trying to commercialise NLG at Arria
+                        (one of the largest specialist NLG companies), which grew out of a startup
+                        he cofounded in 2009.
+                      </p>
+                    </div> <!-- col-xs-9 -->
+                  </div> <!-- row -->
+                  <p><b>Talk abstract:</b></p>
+                  <p> Natural Language Generation (NLG) systems have different characteristics
+                  than other NLP systems, which effects how they are evaluated. In particular,
+                  it can be difficult to meaningfully evaluate NLG texts by comparing them against
+                  gold-standard reference texts, because (A) there are usually many possible texts
+                  which are acceptable to users and (B) some NLG systems produce texts which are better
+                  (as judged by human users) than human-written corpus texts.  Partially because of
+                  these reasons, the NLG community places much more emphasis on human-based
+                  evaluations than most areas of NLP.
+                  </p>
+                  <p> I will discuss the various ways in which NLG systems are evaluated, focusing on
+                  human-based evaluations.  These typically either measure the success of generated texts
+                  at achieving a goal (eg, measuring how many people change their behaviour after reading
+                  behaviour-change texts produced by an NLG system); or ask human subjects to rate various
+                  aspects of generated texts (such as readability, accuracy, and appropriateness),
+                  often on Likert scales.  I will use examples from evaluations I have carried out,
+                  and highlight some of the lessons I have learnt, including the importance of reporting
+                  negative results, the difference between laboratory and real-world evaluations, and
+                  the need to look at worse-case as well as average-case performance.  I hope my talk will
+                  be interesting and relevant to anyone who is interested in the evaluation of NLP systems. 
+                  </p>
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><b>Regina Barzilay, MIT</b></h3>
+                </div>
+                <div class="panel-body invited-speaker-content">
+                  <div class="row">
+                    <div class="col-sm-10"> Talk abstract and speaker bio forthcoming.
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- col-md-9 -->
+            <!-- no sidebar -->
+          </div> <!-- row -->
+        </div> <!-- col-md-10 -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+
+    <!-- put new container content here -->
+    {% include footer.html %}
+    </div> <!-- wrapper -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>
