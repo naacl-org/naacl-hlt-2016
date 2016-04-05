@@ -1,0 +1,241 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Tutorials - NAACL HLT 2016 | San Diego, CA</title>
+    <meta name="description" content="Tutorials in all areas of computational linguistics, broadly conceived to include disciplines such as linguistics, speech, information retrieval and multimodal processing." />
+   {% include head.html %}
+ </head>
+  <body>
+    {% include nav.html %} 
+    <div class="jumbotron" id="header">
+      <div class="container">
+        <div class="navbutton">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body"> 
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button> 
+        </div>
+       {% include top_banner.html %}
+      </div> <!-- container -->
+    </div> <!-- jumbotron -->
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+        <div class="col-md-9">
+          <h2><span class="glyphicon glyphicon-blackboard"></span> <b>NAACL HLT 2016 Tutorials</b></h2>
+          <h4>
+            <a href="tutorials.html">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="tutorials.html">Back to Tutorials listing</a>
+          </h4>
+          <div id="tutorials-list">
+            <div class="panel panel-info">
+              <div class="panel-heading tutorials-heading">
+                <div class="panel-title">
+                  <a href="t1.html"><span class="label label-primary tutorial-label">T1</span></a>
+                  <a href="t1.html"><span class="tutorial-title">English Resource Semantics</span></a>
+                </div>
+              </div>
+              <div class="panel-body">
+                <p><b>Instructors</b>: Dan Flickinger, Emily M. Bender, and Woodley Packard</p>
+                <p><b>Abstract</b>:</p>
+<p>Recent years have seen a dramatic increase in interest in
+semantically-informed natural language processing, including parsing
+into semantic representations, grounded language processing that
+connects linguistic structures to world representations, proposals to
+integrate compositional and distributional approaches to semantics,
+and approaches to semantically-sensitive tasks including sentiment
+analysis, summarization, generation, machine translation, and
+information extraction which take into account linguistic structure
+beyond n-grams. The semantic inputs to this work include a wide range
+of representations, from word embeddings, to syntactic dependencies
+used as a proxy for semantic dependencies, to sentence-level semantic
+representations either partial (e.g. semantic role labels) or fully
+articulated.
+
+<p>The purpose of this tutorial is to make accessible an important
+resource in this space, namely the semantic representations produced
+by the English Resource Grammar (ERG; Flickinger 2000, 2011). The ERG
+is a broad-coverage, linguistically motivated precision grammar for
+English, associating richly detailed semantic representations with
+input sentences.  These representations, dubbed English Resource
+Semantics or ERS, are in the formalism of Minimal Recursion Semantics
+(MRS; Copestake et al 2005).  They include not only semantic roles,
+but also information about the scope of quantifiers and scopal
+operators including negation, as well as semantic representations of
+linguistically complex phenomena such as time and date expressions,
+conditionals, and comparatives (Flickinger et al, 2014).  ERS
+can be expressed in various ways, including a logic-based syntax using
+predicates and arguments, dependency graphs and dependency triples.
+In addition, the representations can be obtained either from existing
+manually produced annotations over texts from a variety of genres (the
+Redwoods Treebank, Oepen et al 2004) and DeepBank (Wall Street
+Journal corpus: Flickinger et al 2012) or by processing new text
+with the ERG and its associated parsing and parse selection
+algorithms.  
+
+<p>With high parsing accuracy with rich semantic representations, English
+Resource Semantics is a valuable source of information for many
+semantically-sensitive NLP tasks. ERS-based systems have achieved
+state-of-the-art results in various tasks, including the
+identification of speculative or negated event mentions in biomedical
+text (MacKinlay et al 2011), question generation (Yao et al 2012),
+detecting the scope of negation (Packard et al 2014), relating natural
+language to robot control language (Packard 2014), and recognizing
+textual entailment (PETE task; Lien & Kouylekov 2015).  ERS
+representations have also been beneficial in semantic transfer-based
+MT (Oepen et al 2007, Bond et al 2011), ontology acquisition (Herbelot
+2006), extraction of glossary sentences (Reiplinger et al 2012),
+sentiment analysis (Kramer & Gordon 2014), and the ACL Anthology
+Searchbench (Sch&auml;fer et al 2011).
+
+<p>The goal of this tutorial is to make this resource more accessible to
+the ACL community.  Specifically, we take as our learning goals that
+tutorial participants will learn how to: (1) set up the ERG-based
+parsing stack, including preprocessing; (2) access ERG
+Redwoods/DeepBank treebanks in the various export formats; and (3)
+interpret ERS representations.
+
+<p><b>Outline</b></p>
+
+<p><ul>
+<li> Overview of goals and methods [10 min]
+<li> Implementation platform and formalism [30 min]
+<ul>
+ <li> Installation of parser and grammar on participants' laptops 
+ <li> Parsing sample data to produce ERS (English Resource Semantics) output 
+ <li> Introduction to ERS formalism  
+</ul>
+<li> Treebanks and output formats [30 min]
+<ul>
+ <li> Search tools over manually annotated corpora 
+ <li> Available output formats and conversion utilities 
+ <li> Disambiguation alternatives: one-best or manual  
+</ul>
+<li> Semantic phenomena [20 min]
+<ul>
+ <li> Exploration of linguistic analyses for selected phenomena 
+ <li> Documentation of semantic representations   
+</ul>
+<li> Coffee break
+<li> Semantic phenomena (continued) [20 min]  
+<li> Parameter tuning for applications [20 min]
+<ul>
+ <li> Parser settings for genre, domain, precision, resource limits 
+ <li> Robust processing for out-of-grammar inputs 
+ <li> Efficiency vs. precision 
+</ul>
+<li> Future enhancements underway [30 min]
+<ul>
+ <li> Word senses for finer-grained semantic representations 
+ <li> More derivational morphology (e.g.\ semi-productive deverbal nouns) 
+ <li> Support for coreference within and across sentence boundaries  
+</ul>
+<li> Sample applications using ERS [20 min]
+</ul>
+
+<p><b>About the Instructors</b></p>
+
+<p>Dan Flickinger, Stanford University, danf@stanford.edu,
+<a href="http://lingo.stanford.edu/danf">
+http://lingo.stanford.edu/danf</a>
+
+<p>Dan Flickinger is a Senior Research Associate at CSLI at Stanford, and manager of the Linguistic Grammars Online (LinGO) Laboratory, where he is the principal developer of the LinGO English Resource Grammar (ERG), a precise broad-coverage implementation of HPSG.  His primary research interests are in wide-coverage grammar engineering for both parsing and generation, lexical representation, the syntax-semantics interface, methodology for evaluation of semantically precise grammars, and practical applications of 'deep' processing. Applied and industrial experience includes co-founding the software company YY Technologies, which from 2000-2002 sold automated consumer email response technology incorporating the ERG; and since 2009 developing online educational software using the ERG for teaching English writing skills, first as part of the Education Program for Gifted Youth (EPGY) at Stanford, and for the past three years as a senior researcher at the EPGY spin-off company Redbird Advanced Learning, based in Oakland, California.
+
+<p>Emily M. Bender, University of Washington, ebender@uw.edu,
+<a href="http://faculty.washington.edu/ebender">
+http://faculty.washington.edu/ebender</a></p>
+
+<p>Emily M. Bender is a Professor in the Department of
+Linguistics and Associate Professor in the Department of Computer
+Science & Engineering at the University of Washington.  Her primary
+research interests lie in multilingual grammar engineering, semantic
+representations, and the incorporation of linguistic knowledge,
+especially from semantics and linguistic typology, in computational
+linguistics.  She is the primary developer of the Grammar Matrix
+grammar customization system, which is developed in the context of the
+DELPH-IN Consortium (Deep Linguistic Processing with HPSG
+Initiative). Her book, <i>Linguistic Fundamentals for Natural
+  Language Processing: 100 Essentials from Morphology and Syntax</i> grew
+out of a NAACL 2012 tutorial on that topic.
+
+<p>Woodley Packard, University of Washington, sweaglesw@sweaglesw.org,
+<a href="http://sweaglesw.org/linguistics/about/">
+http://sweaglesw.org/linguistics/about/</a>
+</p>
+
+<p>Woodley Packard is a student at the University of Washington, pursuing
+a PhD in Computational Linguistics with Emily M. Bender.  His research
+interests include efficient algorithms for grammar-based parsing,
+generation, annotation, and learning; robustness mechanisms for
+precision grammars; methodologies for contextually-informed
+disambiguation; and applications of semantic representations.  He
+wrote and maintains the ACE parser/generator and the FFTB annotation
+tool.  Recent work includes designing and building the top-performing
+entry for SemEval 2014 Task 6 on interpreting natural language
+commands to robots.</p>
+
+<p><b>References</b></p>
+
+<p>Bond, F., Oepen, S., Nichols, E., Flickinger, D., Velldal, E., & Haugereid, P. (2011). Deep open-sourc emachine translation. Machine Translation , 25 , 87-105. doi: 10.1007/s10590-011-9099-4
+
+<p>Copestake, A., Flickinger, D., Pollard, C., & Sag, I. A. (2005). Minimal Recursion Semantics. An introduction. Research on Language and Computation, 3(4), 281-332.
+
+<p>Flickinger, D. (2000). On building a more efficient grammar by exploiting types. Natural Language Engineering, 6 (1), 15-28.
+
+<p>Flickinger, D. (2011). Accuracy vs. robustness in grammar engineering. In E. M. Bender & J. E. Arnold (Eds.), Language from a cognitive perspective: Grammar, usage, and processing (pp. 31-50). Stanford: CSLI Publications.
+
+<p>Flickinger, D., Bender, E. M., & Oepen, S. (2014). Towards an encyclopedia of compositional semantics: Documenting the interface of the english resource grammar. In N. Calzolari et al. (Eds.), Proceedings of the ninth international conference on language resources and evaluation (LREC'14) (pp. 875-881). Reykjavik, Iceland: European Language Resources Association (ELRA).
+
+<p>Flickinger, D., Zhang, Y., & Kordoni, V. (2012). DeepBank. A dynamically annotated treebank of the Wall Street Journal. In (p. 85-96). Lisbon, Portugal: Edi&ccedil;&otilde;es Colibri.
+
+<p>Herbelot, A., & Copestake, A. (2006). Acquiring Ontological Relationships from Wikipedia Using RMRS. In Proceedings of the ISWC 2006 workshop on web content.
+
+<p>Ivanova, A., Oepen, S., Dridan, R., Flickinger, D., & &Oslash;vrelid, L. (2013). On different approaches to syntactic analysis into bi-lexical dependencies. An empirical comparison of direct, PCFG-based, and HPSG-based parsers. In Proceedings of the 13th International Conference on Parsing Technologies (p. 63-72). Nara, Japan.
+
+<p>Kramer, J., & Gordon, C. (2014). Improvement of a naive bayes sentiment classifier using mrs-based features. In Proceedings of the third joint conference on lexical and computational semantics (*SEM 2014) (pp. 22-29). Dublin, Ireland: Association for Computational Linguistics and Dublin City University.
+
+<p>Lien, E., & Kouylekov, M. (2015). Semantic parsing for textual entailment. In Proceedings of the 14th International Conference on Parsing Technologies (p. 40-49). Bilbao, Spain.
+
+<p>MacKinlay, A., Martinez, D., & Baldwin, T. (2011). A parser-based approach to detecting modification of biomedical events. In Proceedings of the acm fifth international workshop on data and text mining in biomedical informatics (pp. 51-58). New York, NY, USA: ACM.
+
+<p>Miyao, Y., Oepen, S., & Zeman, D. (2014). In-House. An ensemble of pre-existing off-the-shelf parsers. In Proceedings of the 8th International Workshop on Semantic Evaluation (p. 63-72). Dublin, Ireland.
+
+<p>Oepen, S., Flickinger, D., Toutanova, K., & Manning, C. D. (2004). LinGO Redwoods. A rich and dynamic treebank for HPSG. Research on Language and Computation, 2(4), 575-596.
+
+<p>Oepen, S., Velldal, E., Lnning, J. T., Meurer, P., Rosn, V., & Flickinger, D. (2007). Towards hybrid quality-oriented machine translation: On linguistics and probabilities in MT. In Proceedings of 11th conference on theoretical and methodological issues in machine translation (p. 144-153). Skvde, Sweden.
+
+<p>Packard, W. (2014). UW-MRS: Leveraging a deep grammar for robotic spatial commands. In Proceedings of the 8th international workshop on semantic evaluation (semeval 2014) (pp. 812-816). Dublin, Ireland: Association for Computational Linguistics and Dublin City University.
+
+<p>Packard, W., Bender, E. M., Read, J., Oepen, S., & Dridan, R. (2014). Simple negation scope resolution through deep parsing: A semantic solution to a semantic problem. In Proceedings of the 52nd annual meeting of the association for computational linguistics (volume 1: Long papers) (pp. 69-78). Baltimore, Maryland: Association for Computational Linguistics.
+
+<p>Reiplinger, M., Sch&auml;fer, U., & Wolska, M. (2012). Extracting glossary sentences from scholarly articles: A comparative evaluation of pattern bootstrapping and deep analysis. In Proceedings of the ACL-2012 special workshop on rediscovering 50 years of discoveries (pp. 55-65). Jeju Island, Korea.
+
+<p>Sch&auml;fer, U., Kiefer, B., Spurk, C., Steffen, J., & Wang, R. (2011). The ACL Anthology Searchbench. In Proceedings of the ACL-HLT 2011 system demonstrations (pp. 7-13). Portland, Oregon: Association for Computational Linguistics.
+
+<p>Yao, X., Bouma, G., & Zhang, Y. (2012). Semantics-based question generation and implementation. Dialogue & Discourse, 3(2), 11-42.
+              </div>
+            </div>
+          </div> <!-- tutorials-list -->
+        </div>  <!-- end col -->
+      </div> <!-- end row -->
+    </div> <!-- end conainer -->
+    {% include footer.html %}
+    </div> <!-- wrapper -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>

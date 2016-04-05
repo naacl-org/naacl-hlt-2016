@@ -1,0 +1,107 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Tutorials - NAACL HLT 2016 | San Diego, CA</title>
+    <meta name="description" content="Tutorials in all areas of computational linguistics, broadly conceived to include disciplines such as linguistics, speech, information retrieval and multimodal processing." />
+   {% include head.html %}
+ </head>
+  <body>
+    {% include nav.html %} 
+    <div class="jumbotron" id="header">
+      <div class="container">
+        <div class="navbutton">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body"> 
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button> 
+        </div>
+       {% include top_banner.html %}
+      </div> <!-- container -->
+    </div> <!-- jumbotron -->
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+        <div class="col-md-9">
+          <h2><span class="glyphicon glyphicon-blackboard"></span> <b>NAACL HLT 2016 Tutorials</b></h2>
+          <h4>
+            <a href="tutorials.html">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="tutorials.html">Back to Tutorials listing</a>
+          </h4>
+          <div id="tutorials-list">
+            <div class="panel panel-info">
+              <div class="panel-heading tutorials-heading">
+                <div class="panel-title">
+                  <a href="t2.html"><span class="label label-primary tutorial-label">T2</span></a>
+                  <a href="t2.html"><span class="tutorial-title">
+                  Multilingual Multimodal Language Processing Using Neural Networks</span></a>
+                </div>
+              </div>
+              <div class="panel-body">
+              <p><b>Instructors:</b> Mitesh M Khapra and Sarath Chandar</p>
+              <p><b>Abstract:</b></p>
+              <p>We live in an increasingly multilingual multimodal world where it is common to find multiple views of the same entity across modalities and languages. For example, news articles which get published in multiple languages are essentially different views of the same entity. Similarly, video, audio and multilingual subtitles are multiple views of the same movie clip. Given the proliferation of such multilingual multimodal content it is no longer sufficient to process a single modality or language at a time. Specifically, there is an increasing demand for allowing transfer, conversion and access across such multiple views of the data. For example, users want to translate/convert news articles to their native language, automatically caption their travel photos and even ask natural language questions over videos and images. This has led to a lot of excitement around this interdisciplinary research area which requires ideas from Machine Learning, Natural Language Processing, Speech and Computer Vision among other fields.</p>
+              <p>In this tutorial we focus on neural network based models for addressing various problems in this space. We will first introduce the participants to some of the basic concepts and building blocks that such approaches rely on. We will then describe some of these approaches in detail. There are two important parts to the tutorial. In the first part, we will talk about approaches which aim to learn a common representation for entities across languages and modalities thereby enabling cross lingual and cross modal access and transfer. In the second part we will talk about multilingual multimodal generation. For example, we will discuss neural network based approaches which aim at (i) generating translations in multiple languages, (ii) generating images given a natural language description and (iii) generating captions in multiple languages.</p>
+
+              <p><b>Outline:</b></p>
+              <ol>
+                <li>Introduction and Motivation [20 mins]</li>
+                <li>Basics [40 mins]
+                  <ol type="a">
+                    <li>Learning distributed representations using Neural Networks</li>
+                    <li>Convolutional Neural Networks</li>
+                    <li>Recursive Neural Networks and its variants</li>
+                  </ol>
+                </li>
+                <li>Multilingual/Multimodal Representation Learning [40 mins]
+                  <ol type="a">
+                    <li>Using parallel data with and without word alignments</li>
+                    <li>Using pivot view in the absence of parallel data</li>
+                  </ol>
+                </li>
+                <li>Multilingual/Multimodal Generation [80 mins]
+                  <ol type="a">
+                    <li>Neural Machine Translation systems</li>
+                    <li>Generating captions from images</li>
+                    <li>Answering natural language questions over images</li>
+                    <li>Describing videos</li>
+                    <li>Generating images from a given natural language description</li>
+                  </ol>
+                <li>Summary</li>
+              </ol>
+
+<p><b>About the Instructors:</b></p>
+<p>Mitesh M Khapra: IBM Research India, mikhapra@in.ibm.com,
+<a href="http://researcher.watson.ibm.com/researcher/view.php?person=in-mikhapra">
+ http://researcher.watson.ibm.com/researcher/view.php?person=in-mikhapra</a></p>
+<p>Mitesh Khapra obtained his Ph.D. from the Indian Institute of Technology, Bombay in the area of Natural Language Processing with a focus on reusing resources for multilingual computation. His areas of interest include Statistical Machine Translation, Text Analytics, Crowdsourcing, Argument Mining and Deep Learning. He is currently working as a Researcher at IBM Research India where he is focusing on mining arguments from large unstructured text. He is also interested in learning common representations across languages and modalities with the view of enabling cross language and cross modal access. He has co-authored papers in top NLP and ML conferences such as ACL, NAACL, EMNLP, AAAI and NIPS.</p>
+
+<p>Sarath Chandar: University of Montreal, apsarathchandar@gmail.com,
+<a href="http://sarathchandar.in/">http://sarathchandar.in/</a></p>
+<p>Sarath Chandar is currently a PhD student in University of Montreal where he works with Yoshua Bengio and Hugo Larochelle on Deep Learning for complex NLP tasks like question answering and dialog systems. His research interests includes Machine Learning, Natural Language Processing, Deep Learning, and Reinforcement Learning. Before joining University of Montreal, he was a Blue Scholar in IBM Research India for a year.</p>
+
+              </div>
+            </div>
+          </div> <!-- tutorials-list -->
+        </div>  <!-- end col -->
+      </div> <!-- end row -->
+    </div> <!-- end conainer -->
+    {% include footer.html %}
+    </div> <!-- wrapper -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>
