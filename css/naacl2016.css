@@ -134,7 +134,8 @@ div.sponsor-item {
 }
 
 #label-supporter {
-  background-color: #8c8c8b;
+  color: black;
+  background-color: #dfdfdf;
 }
 
 .invited-speaker-content {
@@ -170,7 +171,7 @@ span.tutorial-title {
 }
 
 img.sponsor-logo {
-  height: 60px;
+  width: 75%;
   margin: 0px 100px 20px 0px;
 }
 img.sponsor-logo-2col {
@@ -216,6 +217,8 @@ li.accepted-paper-item {
 /*  padding-right: 100px; */
 }
 
+.sponsor-col-2 {}
+
 .wide-gutter > [class*='col-'] {
   padding-left: 30px;
   padding-right: 30px;
@@ -225,4 +228,8 @@ li.accepted-paper-item {
   float: left;
   margin-right: 30px;
   margin-bottom: 10px;
+}
+
+.vmiddle {
+  vertical-align: middle;
 }
