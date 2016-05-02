@@ -1,0 +1,131 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Accepted Papers - NAACL HLT 2016 | San Diego, CA</title>
+    <meta name="description" content="Accepted papers for the main conference, long papers, short papers, talks and posters." />
+   {% include head.html %}
+ </head>
+
+  <body>
+    {% include nav.html %}
+    <div class="container">
+    </div> <!-- container -->
+
+    <div class="jumbotron" id="header">
+      <div class="container">
+            <div class="navbutton">
+        <!-- class="navbar navbar-default navbar-fixed-left">  -->
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+        </div>
+       {% include top_banner.html %}
+      </div> <!-- container -->
+    </div> <!-- jumbotron -->
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+        <div class="col-md-7">
+          <h2><span class="glyphicon glyphicon-ok-circle"></span> <b>Accepted Papers: Main Conference</b></h2>
+          <div class="alert alert-info alert-dismissable" role="alert">
+               Congratulations to the authors of this year's <a href="best_papers.html" class="alert-link">best long and short papers</a>,
+               and runners-up.</a>
+          </div>
+          <div class="alert alert-info alert-dismissable" role="alert">
+               Thank you to all our reviewers. This year's <a href="best_reviewers.html" class="alert-link">Best Reviewers</a> have been identified by area chairs.
+          </div>
+          <div id="accepted-papers-nav">
+            <ul class="nav nav-pills" role="tablist">
+              <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+              <li role="presentation"><a href="#long-papers" aria-controls="long-papers" role="tab" data-toggle="tab">Long Papers</a></li>
+              <li role="presentation"><a href="#short-papers" aria-controls="short-papers" role="tab" data-toggle="tab">Short Papers</a></li>
+              <li role="presentation"><a href="#demo-papers" aria-controls="demo-papers" role="tab" data-toggle="tab">System Demos</a></li>
+              <li role="presentation"><a href="cfp.html" target="_blank">Archived CFP</a></li>
+            </ul>
+          </div>
+      <div class="tab-content" id="accepted-papers-tabs">
+        <div role="tabpanel" class="tab-pane active" id="all">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <div class="panel-title"><strong>Long Papers</strong></div>
+            </div>
+            <div class="panel-body">
+              <ul class="list-unstyled">
+                {% include long-papers.html %}
+              </ul>
+            </div> <!-- panel-body -->
+          </div> <!-- panel -->
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <div class="panel-title"><strong>Short Papers</strong></div>
+            </div>
+            <div class="panel-body">
+              <ul class="list-unstyled">
+                {% include short-papers.html %}
+              </ul>
+            </div> <!-- panel-body -->
+          </div> <!-- panel short-papers -->
+        </div> <!-- tab all -->
+
+        <div role="tabpanel" class="tab-pane" id="long-papers">
+           <div class="panel panel-info">
+            <div class="panel-heading">
+              <div class="panel-title"><strong>Long Papers</strong></div>
+            </div>
+            <div class="panel-body">
+              <ul class="list-unstyled">
+                {% include long-papers.html %}
+              </ul>
+            </div> <!-- panel-body -->
+          </div> <!-- panel -->
+        </div> <!-- tab long-papers -->
+
+        <div role="tabpanel" class="tab-pane" id="short-papers">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <div class="panel-title"><strong>Short Papers</strong></div>
+            </div>
+            <div class="panel-body">
+              <ul class="list-unstyled">
+                {% include short-papers.html %}
+              </ul>
+            </div> <!-- panel-body -->
+          </div> <!-- panel -->
+        </div> <!-- tab short-papers -->
+
+        <div role="tabpanel" class="tab-pane" id="demo-papers">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <div class="panel-title"><strong>System Demos</strong></div>
+            </div>
+            <div class="panel-body">
+              <ul class="list-unstyled">
+                {% include demo-papers.html %}
+              </ul>
+            </div> <!-- panel-body -->
+          </div> <!-- panel -->
+        </div> <!-- tab demo-papers -->
+
+       </div> <!-- tab content -->
+        </div> <!-- col-md-7 -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+
+    <!-- put new container content here -->
+    {% include footer.html %}
+    </div> <!-- wrapper -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>
