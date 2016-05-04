@@ -294,6 +294,9 @@ li.accepted-paper-item {
   background-color: #1a237e;
   color: #fff;
 }
+.panel-plenary {
+  border: 1px solid #536dfe;
+}
 .panel-plenary > .panel-heading {
   background-color: #536dfe;
   color: #fff;
