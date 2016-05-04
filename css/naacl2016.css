@@ -260,6 +260,9 @@ li.accepted-paper-item {
   background-color: #7986cb;
   color: #fff;
 }
+.panel-session-a .panel-title {
+  font-size: 1.2em;
+}
 .panel-session-b {
   border: 0px;
 }
@@ -270,6 +273,9 @@ li.accepted-paper-item {
   background-color: #7986cb;
   color: #fff;
 }
+.panel-session-b .panel-title {
+  font-size: 1.2em;
+}
 .panel-session-c {
   border: 0px;
 }
@@ -279,6 +285,9 @@ li.accepted-paper-item {
 .panel-session-c > .panel-heading {
   background-color: #7986cb;
   color: #fff;
+}
+.panel-session-c .panel-title {
+  font-size: 1.2em;
 }
 .panel-accent > .panel-heading {
   background-color: #e8eaf6;
@@ -292,10 +301,18 @@ li.accepted-paper-item {
   background-color: #536dfe;
   color: #fff;
 }
-
 .program a {
   color: #fff;
 }
-.nomargin {
-  margin: 0px;
+.program .panel {
+  margin-bottom: 10px;
 }
+
+/*
+.min-gutter > [class*='col-']:not(:first-child) {
+  padding-left: 10px;
+}
+.min-gutter > [class*='col-']:not(:last-child) {
+  padding-right: 10px;
+}
+*/
