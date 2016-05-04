@@ -233,3 +233,69 @@ li.accepted-paper-item {
 .vmiddle {
   vertical-align: middle;
 }
+
+.session-color-a {
+  background-color: #303f9f;
+  color: #fff;
+}
+.session-color-b {
+  background-color: #3f51b5;
+  color: #fff;
+}
+.session-color-c {
+  background-color: #388e3c;
+  color: #fff;
+}
+.session-content {
+  font-size: 0.9em;
+}
+
+.panel-session-a {
+  border: 0px;
+}
+.panel-session-a > .panel-body {
+  border: 0px;
+}
+.panel-session-a > .panel-heading {
+  background-color: #7986cb;
+  color: #fff;
+}
+.panel-session-b {
+  border: 0px;
+}
+.panel-session-b > .panel-body {
+  border: 0px;
+}
+.panel-session-b > .panel-heading {
+  background-color: #7986cb;
+  color: #fff;
+}
+.panel-session-c {
+  border: 0px;
+}
+.panel-session-c > .panel-body {
+  border: 0px;
+}
+.panel-session-c > .panel-heading {
+  background-color: #7986cb;
+  color: #fff;
+}
+.panel-accent > .panel-heading {
+  background-color: #e8eaf6;
+  color: #212121;
+}
+.panel-day > .panel-heading {
+  background-color: #1a237e;
+  color: #fff;
+}
+.panel-plenary > .panel-heading {
+  background-color: #536dfe;
+  color: #fff;
+}
+
+.program a {
+  color: #fff;
+}
+.nomargin {
+  margin: 0px;
+}
