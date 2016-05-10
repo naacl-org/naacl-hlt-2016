@@ -172,13 +172,24 @@ span.tutorial-title {
 
 img.sponsor-logo {
   width: 75%;
-  margin: 0px 100px 20px 0px;
+  margin: 40px 100px 20px 0px;
 }
 img.sponsor-logo-2col {
   width: 100%;
   margin: 0px 100px 20px 0px;
 }
-
+#huawei-logo {
+  height: auto;
+  width: auto;
+}
+#nuance-logo {
+  height: auto;
+  width: auto;
+}
+#voicebox-logo {
+  height: auto;
+  width: auto;
+}
 #tutorials-list .panel-heading {
   padding: 5px 15px 5px 15px;
 }
@@ -325,4 +336,3 @@ li.accepted-paper-item {
     padding-right: 5px;
   }
 }
-
