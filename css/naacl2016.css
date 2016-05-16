@@ -2,7 +2,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
+body#program-page {
+  padding-top: 70px;
+}
 #header {
   color: #333;
   background-color: #fff;
@@ -10,7 +12,7 @@ body {
 }
 
 #header a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 #title {
@@ -336,3 +338,49 @@ li.accepted-paper-item {
     padding-right: 5px;
   }
 }
+.naacl-program-navbar > .navbar {
+  background-color: #e8eaf6;
+}
+#program-page #program-nav {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+.fixed {
+  height: 3000px;
+}
+.session-chair {
+  margin-top: 5px;
+  font-size: 1.0em;
+}
+.location {
+  float: right;
+  margin-left: 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .location {
+    font-size: 1em;
+  }
+}
+
+.loc-pavilion {
+  color: black;
+  background-color: #eeff41;
+}
+.loc-grande {
+  background-color: #d81b60;
+}
+.loc-grande-a {
+  background-color: #7e57c2;
+}
+.loc-grande-b {
+  background-color: #7e57c2;
+  /* background-color: #d81b60; */
+}
+.loc-grande-c {
+  background-color: #7e57c2;
+  /* background-color: #e64a19; */
+}
+
