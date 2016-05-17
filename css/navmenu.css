@@ -93,6 +93,10 @@ img#brand {
   #sidebar-nav li {
     display: none;
   }
+  #sidebar-nav hr {
+    display: none;
+  }
+
   .navbar-toggle {
     display: inline;
   }
