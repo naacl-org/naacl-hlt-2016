@@ -1,0 +1,6 @@
+title,authors
+"Efficient Structured Inference for Transition-Based Parsing with Neural Networks and Error States","Ashish Vaswani and Kenji Sagae"
+"Recurrent Neural Network Grammars","Chris Dyer, Adhiguna Kuncoro, Miguel Ballesteros and Noah A. Smith"
+"Expected F-Measure Training for Shift-Reduce Parsing with Recurrent Neural Networks","Wenduan Xu, Michael Auli and Stephen Clark"
+"LSTM CCG Parsing","Mike Lewis, Kenton Lee and Luke Zettlemoyer"
+"Supertagging With LSTMs","Ashish Vaswani, Yonatan Bisk, Kenji Sagae and Ryan Musa"

@@ -330,6 +330,31 @@ li.accepted-paper-item {
 .program .paper-authors {
   font-style: normal;
 }
+.program .paper {
+  font-size: .9em;
+  margin-top: 5px;
+}
+.program .time {
+  margin-right: 0;
+  padding-right: 5px;
+  padding-left: 10px;
+  text-align: left;
+}
+.program .details {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 10px;
+}
+/* Paper timing customizations for very small screens, e.g. iPhone5 & iPhone4 */
+@media screen and (max-width: 320px) {
+  .program .time {
+    padding-left: 2px;
+    text-align: right;
+  }
+  .program .details {
+    padding-right: 2px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .min-gutter > [class*='col-']:not(:first-child) {
     padding-left: 5px;
