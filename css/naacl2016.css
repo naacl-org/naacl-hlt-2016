@@ -259,35 +259,35 @@ li.accepted-paper-item {
 }
 
 .panel-session-a {
-  border: 1px solid #7986cb;
+  border: 1px solid #9575cd;
 }
 .panel-session-a > .panel-body {
 }
 .panel-session-a > .panel-heading {
-  background-color: #7986cb;
+  background-color: #9575cd;
   color: #fff;
 }
 .panel-session-a .panel-title {
 }
 .panel-session-b {
-  border: 1px solid #7986cb;
+  border: 1px solid #9575cd;
 }
 .panel-session-b > .panel-body {
 }
 .panel-session-b > .panel-heading {
-  background-color: #7986cb;
+  background-color: #9575cd;
   color: #fff;
 }
 .panel-session-b .panel-title {
 }
 .panel-session-c {
-  border: 1px solid #7986cb;
+  border: 1px solid #9575cd;
 }
 .panel-session-c > .panel-body {
-  border: 1px solid #7986cb;
+  border: 1px solid #9575cd;
 }
 .panel-session-c > .panel-heading {
-  background-color: #7986cb;
+  background-color: #9575cd;
   color: #fff;
 }
 .panel-session-c .panel-title {
@@ -304,10 +304,10 @@ li.accepted-paper-item {
   color: #fff;
 }
 .panel-plenary {
-  border: 1px solid #536dfe;
+  border: 1px solid #7986cb;
 }
 .panel-plenary > .panel-heading {
-  background-color: #536dfe;
+  background-color: #7986cb;
   color: #fff;
 }
 .program a {
@@ -387,31 +387,28 @@ li.accepted-paper-item {
 }
 
 .loc-pavilion {
-  color: black;
-  background-color: #eeff41;
+  color: white;
+  background-color: #3F51B5;
 }
 .loc-bayview {
-  color: black;
-  background-color: #A5D6A7;
+  color: white;
+  background-color: #3F51B5;
 }
 
 .loc-grande {
-  background-color: #d81b60;
+  background-color: #3F51B5;
 }
 .loc-grande-a {
-  background-color: #7e57c2;
+  background-color: #673AB7;
 }
 .loc-grande-b {
-  background-color: #7e57c2;
-  /* background-color: #d81b60; */
+  background-color: #673AB7;
 }
 .loc-grande-c {
-  background-color: #7e57c2;
-  /* background-color: #e64a19; */
+  background-color: #673AB7;
 }
 iframe#program-embed {
   overflow-x: hidden;
-  /* padding-left: 5px; */
 }
 .program-embed .panel-plenary .panel-heading {
   padding-top: 5px;
