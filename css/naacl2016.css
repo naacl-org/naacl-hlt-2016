@@ -416,27 +416,22 @@ iframe#program-embed {
 .program-embed .panel-plenary .panel-heading {
   padding-top: 5px;
   padding-bottom: 0px;
-  line-height: 0.8;
 }
 .program-embed .panel-session-a .panel-heading {
   padding-top: 5px;
   padding-bottom: 0px;
-  line-height: 0.8;
 }
 .program-embed .panel-session-b .panel-heading {
   padding-top: 5px;
   padding-bottom: 0px;
-  line-height: 0.8;
 }
 .program-embed .panel-session-c .panel-heading {
   padding-top: 5px;
   padding-bottom: 0px;
-  line-height: 0.8;
 }
 .program-embed .panel-accent .panel-heading {
   padding-top: 5px;
   padding-bottom: 0px;
-  line-height: 0.8;
   border: 1px dotted #c0c0c0;
   border-radius: 5px;
 }
@@ -444,37 +439,45 @@ iframe#program-embed {
 .program .panel-plenary .panel-heading {
   padding-top: 10px;
   padding-bottom: 3px;
-  line-height: 0.8;
+}
+.program .panel-plenary .panel-heading p {
+  margin-bottom: 2px;
 }
 .program .panel-session-a .panel-heading {
   padding-top: 10px;
   padding-bottom: 3px;
-  line-height: 0.8;
+}
+.program .panel-session-a .panel-heading p {
+  margin-bottom: 2px;
 }
 .program .panel-session-b .panel-heading {
   padding-top: 10px;
   padding-bottom: 3px;
-  line-height: 0.8;
+}
+.program .panel-session-b .panel-heading p {
+  margin-bottom: 2px;
 }
 .program .panel-session-c .panel-heading {
   padding-top: 10px;
   padding-bottom: 3px;
-  line-height: 0.8;
+}
+.program .panel-session-c .panel-heading p {
+  margin-bottom: 2px;
 }
 .program .panel-accent .panel-heading {
   padding-top: 10px;
   padding-bottom: 3px;
-  line-height: 0.8;
   border: 1px solid #d5d5d5;
   border-radius: 5px;
+}
+.program .panel-accent .panel-heading p {
+  margin-bottom: 2px;
 }
 .program .panel-day .panel-heading {
   border-radius: 5px;
 }
-@media screen and (min-width: 1024px) {
-  .program-embed-div {
-    height: 500px;
-  }
+.program-embed-div {
+  height: 500px;
 }
 a#program-embed-expand {
   color: black;
