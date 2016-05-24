@@ -298,13 +298,14 @@ li.accepted-paper-item {
 .panel-session-c .panel-title {
 }
 .panel-accent > .panel-heading {
-  padding-top: 2px;
+  padding-top: 5px;
   padding-bottom: 2px;
   background-color: #e8eaf6;
   color: #212121;
 }
 .panel-day > .panel-heading {
   background-color: #1a237e;
+  padding-bottom: 2px;
   color: #fff;
 }
 .panel-plenary {
@@ -322,7 +323,7 @@ li.accepted-paper-item {
   margin-bottom: 5px;
 }
 .program .panel-heading {
-  padding-bottom: 5px;
+  padding-bottom: 0px;
 }
 .program .paper-title {
   font-weight: bold;
@@ -413,4 +414,74 @@ li.accepted-paper-item {
   background-color: #7e57c2;
   /* background-color: #e64a19; */
 }
+iframe#program-embed {
+  overflow-x: hidden;
+  border: 1px dotted #7e57c2;
+  padding-left: 5px;
+}
+.program-embed .panel-plenary .panel-heading {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  line-height: 0.8;
+}
+.program-embed .panel-session-a .panel-heading {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  line-height: 0.8;
+}
+.program-embed .panel-session-b .panel-heading {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  line-height: 0.8;
+}
+.program-embed .panel-session-c .panel-heading {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  line-height: 0.8;
+}
+.program-embed .panel-accent .panel-heading {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  line-height: 0.8;
+  border: 1px dotted #c0c0c0;
+  border-radius: 5px;
+}
 
+.program .panel-plenary .panel-heading {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  line-height: 0.8;
+}
+.program .panel-session-a .panel-heading {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  line-height: 0.8;
+}
+.program .panel-session-b .panel-heading {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  line-height: 0.8;
+}
+.program .panel-session-c .panel-heading {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  line-height: 0.8;
+}
+.program .panel-accent .panel-heading {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  line-height: 0.8;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+}
+.program .panel-day .panel-heading {
+  border-radius: 5px;
+}
+@media screen and (min-width: 1024px) {
+  .program-embed-div {
+    height: 500px;
+  }
+}
+a#program-embed-expand {
+  color: black;
+}
