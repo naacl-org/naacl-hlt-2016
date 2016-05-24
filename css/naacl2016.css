@@ -394,6 +394,11 @@ li.accepted-paper-item {
   color: black;
   background-color: #eeff41;
 }
+.loc-bayview {
+  color: black;
+  background-color: #A5D6A7;
+}
+
 .loc-grande {
   background-color: #d81b60;
 }
