@@ -488,3 +488,8 @@ a#program-embed-expand {
 .sidebar-panel .panel-heading {
   padding: 5px 10px 5px 10px;
 }
+.sidebar-panel .panel-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
