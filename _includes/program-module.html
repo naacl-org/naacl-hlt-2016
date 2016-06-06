@@ -847,12 +847,32 @@
               <div class="panel panel-plenary">
                 <div class="panel-heading">
                   <div class="panel-title">
-                    <p>Panel Discussion: How Deep Learning will Change Computational Linguistics?</p>
+                    <p><a data-toggle="collapse" href="#panel-discussion">
+                      Panel Discussion: How Will Deep Learning Change Computational Linguistics?
+                    </a></p>
                     <h5 class="location"><span class="label loc-grande">Grande Ballroom</span></h5>
                     <p>1:15 PM &ndash; 2:15 PM</p>
+                  </div>  <!-- panel-title -->
+                </div>  <!-- panel-heading -->
+                <div id="panel-discussion" class="panel-collapse collapse">
+                  <div class="panel-body session-content">
+                    <p><b>Moderator:</b> Jason Eisner</p>
+                    <p><b>Panelists:</b> Kyunghyun Cho, Chris Dyer, Pascale Fung, Heng Ji</p>
+		    <ul>
+		      <li>What are the big problems in NLP historically, now, and in the future?  (What do we need to solve, regardless of the approach for solving it?)</li>
+		      <li>What current NLP problems has DL solved, or where has DL made an important contribution towards improving the state of the art?</li>
+		      <li>Does DL guide NLP towards new problems? Do we already have examples? Do you want to speculate? (Have a new hammer, looking for un-hammered nails.)</li>
+		      <li>Does DL change our methodology profoundly, or is it just another machine learning method? Is there a greater danger of overfitting because of the massive tuning required? Given the computational requirements, are off-the-shelf tools incorporating DL practical?</li>
+		      <li>Is the use of off-the-shelf word embeddings the major contribution of DL?  Does every task in which in the past we had bag of words features now required to also use word embedding features?</li>
+		      <li>Is linguistics obsolete because DL will find better representations on its own?  Or should DL be combined with traditional representations of latent linguistic structure?  What is the best way to do that &ndash; hybrid architectures, hybrid training objectives, hand-designed input representations, or something else?</li>
+		      <li>Is DL mostly good for supervised mapping of input to output where very large training sets are available?  Or can it also help for semi-supervised learning and unsupervised structure discovery?</li>
+		      <li>What are the best approaches to interpretability (explaining why a DL system made a particular decision)?  What are the best approaches to understanding the latent representations and figuring out what the system is missing and how to fix that?</li>
+		      <li>How much do architectures and parameters need to be task-specific?  How much can researchers reuse architectures, and learning algorithms reuse parameters, across tasks?</li>
+		      <li>A DL design that looks nice on paper often doesn't work right away.  What are best practices for achieving good performance?  Do experienced researchers not have this problem because they know more tricks of the trade and have better intuitions about hyperparameters?  Or does every paper involve 6 months of fiddling around on a dev set until it works?  Is it worth doing automatic tuning of hyperparameters, e.g., Bayesian optimization?</li>
+		    </ul>
                   </div>
-                </div>
-              </div>
+                </div>  <!-- panel-discussion .panel-collapse.collapse -->
+              </div>  <!-- panel -->
             </div> <!-- col-md-12 -->
           </div> <!-- row -->
           <div class="row min-gutter">
@@ -1201,7 +1221,7 @@
                 <div class="panel-heading" data-toggle="collapse" href="#session-ehud">
                   <div class="panel-title">
                     <p>
-                      <a data-toggle="collapse" href="#session-ehud">Invited Talk: Evaluating Natural Language Generation System</a>
+                      <a data-toggle="collapse" href="#session-ehud">Invited Talk: Evaluating Natural Language Generation Systems</a>
                     </p>
                     <h5>Ehud Reiter</h5>
                     <h5 class="location"><span class="label loc-grande">Grande Ballroom</span></h5>
