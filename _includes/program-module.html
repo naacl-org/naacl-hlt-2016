@@ -586,15 +586,15 @@
                 <p><span class="paper-title">Vision and Feature Norms: Improving automatic feature norm learning through cross-modal maps</span> <span class="paper-authors">Luana Bulat, Douwe Kiela and Stephen Clark</span></p>
                 
                 <h3><span class="label label-info">Student Research Workshop Papers</span></h3>
-            		<p><span class="paper-title">Combining syntactic patterns and Wikipedia's hierarchy of hyperlinks to extract relations: The case of meronymy extraction</span> <span class="paper-authors">Debela Tesfaye Gemechu, Michael Zock and Solomon Teferra</span></p>
-            		<p><span class="paper-title">Extraction of Bilingual Technical Terms for Chinese-Japanese Patent Translation</span> <span class="paper-authors">Wei Yang, Jinghui Yan and Yves Lepage</span></p>
-            		<p><span class="paper-title">Non-decreasing Sub-modular Function for Comprehensible Summarization</span> <span class="paper-authors">Litton JKurisinkel, Pruthwik Mishra, Vigneshwaran Muralidaran, Vasudeva Varma and Dipti Misra Sharma</span></p>
-            		<p><span class="paper-title">Using Related Languages to Enhance Statistical Language Models</span> <span class="paper-authors">Anna Currey, Alina Karakanta and Jon Dehdari</span></p>
-            		<p><span class="paper-title">Phylogenetic simulations over constraint-based grammar formalisms </span> <span class="paper-authors">Andrew Lamont and Jonathan Washington</span></p>
-            		<p><span class="paper-title">Exploring Fine-Grained Emotion Detection in Tweets</span> <span class="paper-authors">Jasy Suet Yan Liew and Howard Turtle</span></p>
-            		<p><span class="paper-title">Analogy-based detection of morphological and semantic relations with word embeddings: what works and what doesn't.</span> <span class="paper-authors">Anna Gladkova, Aleksandr Drozd and Satoshi Matsuoka</span></p>
-            		<p><span class="paper-title">Explicit Argument Identification for Discourse Parsing In Hindi: A Hybrid Pipeline</span> <span class="paper-authors">Rohit Jain and Dipti Sharma</span></p>
-            		<p><span class="paper-title">Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter</span> <span class="paper-authors">Zeerak Waseem and Dirk Hovy</span></p>
+                <p><span class="paper-title">Combining syntactic patterns and Wikipedia's hierarchy of hyperlinks to extract relations: The case of meronymy extraction</span> <span class="paper-authors">Debela Tesfaye Gemechu, Michael Zock and Solomon Teferra</span></p>
+                <p><span class="paper-title">Extraction of Bilingual Technical Terms for Chinese-Japanese Patent Translation</span> <span class="paper-authors">Wei Yang, Jinghui Yan and Yves Lepage</span></p>
+                <p><span class="paper-title">Non-decreasing Sub-modular Function for Comprehensible Summarization</span> <span class="paper-authors">Litton JKurisinkel, Pruthwik Mishra, Vigneshwaran Muralidaran, Vasudeva Varma and Dipti Misra Sharma</span></p>
+                <p><span class="paper-title">Using Related Languages to Enhance Statistical Language Models</span> <span class="paper-authors">Anna Currey, Alina Karakanta and Jon Dehdari</span></p>
+                <p><span class="paper-title">Phylogenetic simulations over constraint-based grammar formalisms </span> <span class="paper-authors">Andrew Lamont and Jonathan Washington</span></p>
+                <p><span class="paper-title">Exploring Fine-Grained Emotion Detection in Tweets</span> <span class="paper-authors">Jasy Suet Yan Liew and Howard Turtle</span></p>
+                <p><span class="paper-title">Analogy-based detection of morphological and semantic relations with word embeddings: what works and what doesn't.</span> <span class="paper-authors">Anna Gladkova, Aleksandr Drozd and Satoshi Matsuoka</span></p>
+                <p><span class="paper-title">Explicit Argument Identification for Discourse Parsing In Hindi: A Hybrid Pipeline</span> <span class="paper-authors">Rohit Jain and Dipti Sharma</span></p>
+                <p><span class="paper-title">Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter</span> <span class="paper-authors">Zeerak Waseem and Dirk Hovy</span></p>
 
                 <h3><span class="label label-success">System Demonstrations</span></h3>
                 <p><span class="paper-title">rstWeb - A Browser-based Annotation Interface for Rhetorical Structure Theory and Discourse Relations</span> <span class="paper-authors">Amir Zeldes</span></p>
@@ -845,14 +845,34 @@
           <div class="row">
             <div class="col-md-12">
               <div class="panel panel-plenary">
-                <div class="panel-heading">
+                <div class="panel-heading" href="#panel-discussion" data-toggle="collapse">
                   <div class="panel-title">
-                    <p>Panel Discussion: How Deep Learning will Change Computational Linguistics?</p>
+                    <p><a data-toggle="collapse" href="#panel-discussion">
+                      Panel Discussion: How Will Deep Learning Change Computational Linguistics?
+                    </a></p>
                     <h5 class="location"><span class="label loc-grande">Grande Ballroom</span></h5>
                     <p>1:15 PM &ndash; 2:15 PM</p>
+                  </div>  <!-- panel-title -->
+                </div>  <!-- panel-heading -->
+                <div id="panel-discussion" class="panel-collapse collapse">
+                  <div class="panel-body session-content">
+                    <p><b>Moderator:</b> Jason Eisner</p>
+                    <p><b>Panelists:</b> Kyunghyun Cho, Chris Dyer, Pascale Fung, Heng Ji</p>
+                    <ul>
+                      <li>What are the big problems in NLP historically, now, and in the future?  (What do we need to solve, regardless of the approach for solving it?)</li>
+                      <li>What current NLP problems has DL solved, or where has DL made an important contribution towards improving the state of the art?</li>
+                      <li>Does DL guide NLP towards new problems? Do we already have examples? Do you want to speculate? (Have a new hammer, looking for un-hammered nails.)</li>
+                      <li>Does DL change our methodology profoundly, or is it just another machine learning method? Is there a greater danger of overfitting because of the massive tuning required? Given the computational requirements, are off-the-shelf tools incorporating DL practical?</li>
+                      <li>Is the use of off-the-shelf word embeddings the major contribution of DL?  Does every task in which in the past we had bag of words features now required to also use word embedding features?</li>
+                      <li>Is linguistics obsolete because DL will find better representations on its own?  Or should DL be combined with traditional representations of latent linguistic structure?  What is the best way to do that &ndash; hybrid architectures, hybrid training objectives, hand-designed input representations, or something else?</li>
+                      <li>Is DL mostly good for supervised mapping of input to output where very large training sets are available?  Or can it also help for semi-supervised learning and unsupervised structure discovery?</li>
+                      <li>What are the best approaches to interpretability (explaining why a DL system made a particular decision)?  What are the best approaches to understanding the latent representations and figuring out what the system is missing and how to fix that?</li>
+                      <li>How much do architectures and parameters need to be task-specific?  How much can researchers reuse architectures, and learning algorithms reuse parameters, across tasks?</li>
+                      <li>A DL design that looks nice on paper often doesn't work right away.  What are best practices for achieving good performance?  Do experienced researchers not have this problem because they know more tricks of the trade and have better intuitions about hyperparameters?  Or does every paper involve 6 months of fiddling around on a dev set until it works?  Is it worth doing automatic tuning of hyperparameters, e.g., Bayesian optimization?</li>
+                    </ul>
                   </div>
-                </div>
-              </div>
+                </div>  <!-- panel-discussion .panel-collapse.collapse -->
+              </div>  <!-- panel -->
             </div> <!-- col-md-12 -->
           </div> <!-- row -->
           <div class="row min-gutter">
@@ -1132,14 +1152,14 @@
                     <p><span class="paper-title">Visual Storytelling</span> <span class="paper-authors">Ting-Hao Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Jacob Devlin, Aishwarya Agrawal, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, Larry Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley and Margaret Mitchell</span></p>
 
                     <h3><span class="label label-info">Student Research Workshop</span></h3>
-            		    <p><span class="paper-title">Detecting 'Smart' Spammers on Social Network: A Topic Model Approach</span> <span class="paper-authors">Linqing Liu, Yao Lu, Ye Luo, Renxian Zhang, Laurent Itti and Jianwei Lu</span></p>
-            		    <p><span class="paper-title">Question Answering over Knowledge Base using Weakly Supervised Memory Networks</span> <span class="paper-authors">Sarthak Jain</span></p>
-            		    <p><span class="paper-title">Automatic tagging and retrieval of E-Commerce products based on visual features</span> <span class="paper-authors">Vasu Sharma and Harish Karnick</span></p>
-            		    <p><span class="paper-title">An End-to-end Approach to Learning Semantic Frames with Feedforward Neural Network</span> <span class="paper-authors">Yukun Feng, Yipei Xu and Dong Yu</span></p>
-            		    <p><span class="paper-title">Argument Identification in Chinese Editorials</span> <span class="paper-authors">Marisa Chow</span></p>
-            		    <p><span class="paper-title">Effects of Communicative Pressures on Novice L2 Learners' Use of Optional Formal Devices</span> <span class="paper-authors">Yoav Binoun, Francesca Delogu, Clayton Greenberg, Mindaugas Mozuraitis and Matthew Crocker</span></p>
-            		    <p><span class="paper-title">Data-driven Paraphrasing and Stylistic Harmonization</span> <span class="paper-authors">Gerold Hintz</span></p>
-            		    <p><span class="paper-title">Developing language technology tools and resources for a resource-poor language: Sindhi</span> <span class="paper-authors">Raveesh Motlani</span></p>
+                    <p><span class="paper-title">Detecting 'Smart' Spammers on Social Network: A Topic Model Approach</span> <span class="paper-authors">Linqing Liu, Yao Lu, Ye Luo, Renxian Zhang, Laurent Itti and Jianwei Lu</span></p>
+                    <p><span class="paper-title">Question Answering over Knowledge Base using Weakly Supervised Memory Networks</span> <span class="paper-authors">Sarthak Jain</span></p>
+                    <p><span class="paper-title">Automatic tagging and retrieval of E-Commerce products based on visual features</span> <span class="paper-authors">Vasu Sharma and Harish Karnick</span></p>
+                    <p><span class="paper-title">An End-to-end Approach to Learning Semantic Frames with Feedforward Neural Network</span> <span class="paper-authors">Yukun Feng, Yipei Xu and Dong Yu</span></p>
+                    <p><span class="paper-title">Argument Identification in Chinese Editorials</span> <span class="paper-authors">Marisa Chow</span></p>
+                    <p><span class="paper-title">Effects of Communicative Pressures on Novice L2 Learners' Use of Optional Formal Devices</span> <span class="paper-authors">Yoav Binoun, Francesca Delogu, Clayton Greenberg, Mindaugas Mozuraitis and Matthew Crocker</span></p>
+                    <p><span class="paper-title">Data-driven Paraphrasing and Stylistic Harmonization</span> <span class="paper-authors">Gerold Hintz</span></p>
+                    <p><span class="paper-title">Developing language technology tools and resources for a resource-poor language: Sindhi</span> <span class="paper-authors">Raveesh Motlani</span></p>
 
                     <h3><span class="label label-success">System Demonstrations</span></h3>
                     <p><span class="paper-title">Illinois Math Solver: Math Reasoning on the Web</span> <span class="paper-authors">Subhro Roy and Dan Roth</span></p>
@@ -1201,7 +1221,7 @@
                 <div class="panel-heading" data-toggle="collapse" href="#session-ehud">
                   <div class="panel-title">
                     <p>
-                      <a data-toggle="collapse" href="#session-ehud">Invited Talk: Evaluating Natural Language Generation System</a>
+                      <a data-toggle="collapse" href="#session-ehud">Invited Talk: Evaluating Natural Language Generation Systems</a>
                     </p>
                     <h5>Ehud Reiter</h5>
                     <h5 class="location"><span class="label loc-grande">Grande Ballroom</span></h5>
@@ -1494,6 +1514,7 @@
               </div>  <!-- panel -->
             </div> <!-- col-md-12 -->
           </div> <!-- row -->
+          <!--
           <div class="row" id="thursday">
             <div class="col-md-12">
               <div class="panel panel-day">
@@ -1501,8 +1522,8 @@
                   <h2>Thursday, June 16</h2>
                 </div>
               </div>
-            </div> <!-- col-md-12 -->
-          </div> <!-- row -->
+            </div>
+          </div>
           <div class="row" id="friday">
             <div class="col-md-12">
               <div class="panel panel-day">
@@ -1510,6 +1531,6 @@
                   <h2>Friday, June 17</h2>
                 </div>
               </div>
-            </div> <!-- col-md-12 -->
-          </div> <!-- row -->
-
+            </div>
+          </div>
+          -->
