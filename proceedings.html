@@ -1,0 +1,78 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Conference Proceedings - NAACL HLT 2016 | San Diego, CA</title>
+    <meta name="description" content="Conference registration dates and pricing" />
+   {% include head.html %}
+ </head>
+
+  <body>
+    {% include nav.html %}
+    <div class="container">
+    </div> <!-- container -->
+
+    <div class="jumbotron" id="header">
+      <div class="container">
+            <div class="navbutton">
+        <!-- class="navbar navbar-default navbar-fixed-left">  -->
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+        </div>
+       {% include top_banner.html %}
+      </div> <!-- container -->
+    </div> <!-- jumbotron -->
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2" id="sidebar-nav">
+          {% include sidebar_nav.html %}
+        </div>
+        <div class="col-md-7">
+          <h2><span class="glyphicon glyphicon-book"></span> <b>Conference Proceedings</b></h2><br>
+          <div class="alert alert-warning" role="alert">
+           We recommend downloading the proceedings <em>before</em> you arrive to the conference.
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <p><a type="button" class="btn btn-primary btn-block" target="_blank"
+                    href="http://m-mitchell.com/NAACL-2016/NAACL-HLT2016">
+                Main Conference Proceedings
+              </a></p>
+              <p><a type="button" class="btn btn-primary btn-block" target="_blank"
+                    href="http://m-mitchell.com/NAACL-2016/SRW">
+                Student Research Workshop
+              </a></p>
+              <p><a type="button" class="btn btn-primary btn-block" target="_blank"
+                    href="http://m-mitchell.com/NAACL-2016/Demos">
+                Demos
+              </a></p>
+              <p><a type="button" class="btn btn-primary btn-block" target="_blank"
+                    href="http://m-mitchell.com/NAACL-2016/Tutorials">
+                Tutorials
+              </a></p>
+            </div>
+          </div> <!-- row -->
+        </div> <!-- col-md-8 -->
+        <div class="col-md-3" id="sidebar">
+        </div> <!-- col-md-3 #sidebar -->
+      </div> <!-- row -->
+
+    </div> <!-- container -->
+
+    <!-- put new container content here -->
+    {% include footer.html %}
+    </div> <!-- wrapper -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>
